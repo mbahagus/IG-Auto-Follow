@@ -1,16 +1,16 @@
 /**
- * Auto Follow Akun Instagram
- * source
+ * Auto Follow Akun Instagram (Bahasa Indonesia)
+ * Untuk Bahasa Inggris Ganti Ikuti Menjadi Follow
  * https://www.github.com/mbahagus/IG-Auto-Follow
  */
  
 setInterval(function () {
     $disabled = false;
     if (!$disabled) {
-        var hearts = document.getElementsByClassName("sqdOP  L3NKy   y3zKF     ");
-        for (var i = 0; i < hearts.length; i++) {
-            if (hearts[i].innerHTML.includes("Ikuti")) {
-                hearts[i].click();
+        var area = document.getElementsByClassName("sqdOP  L3NKy   y3zKF     ");
+        for (var i = 0; i < area.length; i++) {
+            if (area[i].innerHTML.includes("Ikuti")) {
+                area[i].click();
                 break;
             }
         }
